@@ -13,7 +13,7 @@ public class Moneda {
         this.conversion = monedaRecord.conversionRate();
     }
 
-    private double conversionConValor() {
+    public double conversionConValor() {
         return this.valor * this.conversion;
     }
     @Override
