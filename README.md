@@ -54,7 +54,7 @@ Moneda{monedaPrincipal='ARS', monedaACambiar='USD', valor=25000.0, conversion=0.
 
 - **Modifica las Monedas Disponibles**: Edita el arreglo `tipoMonedas` en `App.java` para agregar o eliminar monedas.
 - **Manejo de Errores**: Asegúrate de que el manejo de errores esté correctamente implementado para obtener mensajes claros en caso de fallos en la API.
-- **Agregar APY KEY**: Ingresa a https://www.exchangerate-api.com/ para generar tu propia API KEY, en la carpeta service la clase `MonedaService, reemplazar la parte que dice API-KEY por la key generada en la API, para hacer funcionar el proyecto.
+- **Agregar APY KEY**: Ingresa a https://www.exchangerate-api.com/ para generar tu propia API KEY, en la carpeta service la clase `MonedaService`, reemplazar la parte que dice API-KEY por la key generada en la API, para hacer funcionar el proyecto.
 
 ## 📞 Contacto
 
