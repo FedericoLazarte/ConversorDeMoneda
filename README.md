@@ -17,11 +17,11 @@
 
 2. **Selecciona la Moneda Base**
 
-   Elige una opción del menú (1-3) para seleccionar la moneda base.
+   Elige una opción del menú (1-6) para seleccionar la moneda base.
 
 3. **Ingresa la Moneda a Convertir**
 
-   Introduce la moneda a la que deseas convertir (ej. USD, ARS, EUR).
+   Introduce la moneda a la que deseas convertir (ej. USD, ARS, EUR, GBP, JPY, CAD)
 
 4. **Ingresa el Monto**
 
@@ -38,17 +38,23 @@ Ingrese el valor el tipo de moneda base:
 1. ARS
 2. USD
 3. EUR
-4. Salir
-Selecciona una opción (1-4): 1
-Ingrese la moneda a convertir (ej. USD, ARS, EUR): USD
+4. GBP
+5. JPY
+6. CAD
+7. Historial de Conversiones
+8. Salir
+Selecciona una opción (1-8): 1
+Ingrese la moneda a convertir (ej. USD, ARS, EUR, GBP, JPY, CAD): USD
 Ingrese el monto a convertir: 25000
 Moneda{monedaPrincipal='ARS', monedaACambiar='USD', valor=25000.0, conversion=0.005, El total es= 125.0}
+
 ```
 
 ## 🔧 Configuración Adicional
 
 - **Modifica las Monedas Disponibles**: Edita el arreglo `tipoMonedas` en `App.java` para agregar o eliminar monedas.
 - **Manejo de Errores**: Asegúrate de que el manejo de errores esté correctamente implementado para obtener mensajes claros en caso de fallos en la API.
+- **Agregar APY KEY**: Ingresa a https://www.exchangerate-api.com/ para generar tu propia API KEY, en la carpeta service la clase MonedaService, reemplazar la parte que dice API-KEY por la key generada en la API, para hacer funcionar el proyecto.
 
 ## 📜 Licencia
 

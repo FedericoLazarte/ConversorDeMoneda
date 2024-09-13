@@ -12,7 +12,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class MonedaService {
-    private static final String API_URL = "https://v6.exchangerate-api.com/v6/6c35cb137582412479f040f0/pair/";
+    private static final String API_URL = "https://v6.exchangerate-api.com/v6/API-KEY/pair/";
 
     public MonedaRecord getConversionRate(String monedaInicial, String monedaAConvertir) throws IOException, InterruptedException {
         String url = API_URL + monedaInicial + "/" + monedaAConvertir;
